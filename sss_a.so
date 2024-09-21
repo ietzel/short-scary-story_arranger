@@ -1,7 +1,10 @@
-Begin
-   OutText ("Hello, World!");
-   Outimage;
-End;
+SaslClient sc = Sasl.createSaslClient(
+  mechanisms, 
+  authorizationId, 
+  protocol, 
+  serverName, 
+  props,
+  callbackHandler);
 
 const quotes = [
 	"You don't even know that you're alive, 81^3#!",
