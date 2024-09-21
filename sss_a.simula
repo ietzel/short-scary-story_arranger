@@ -1,3 +1,8 @@
+Begin
+   OutText ("Hello, World!");
+   Outimage;
+End;
+
 const quotes = [
 	"You don't even know that you're alive, 81^3#!",
 	"Green number 4, close the door!",
