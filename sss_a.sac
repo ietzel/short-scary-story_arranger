@@ -1,10 +1,9 @@
-SaslClient sc = Sasl.createSaslClient(
-  mechanisms, 
-  authorizationId, 
-  protocol, 
-  serverName, 
-  props,
-  callbackHandler);
+use StdIO : all ;
+use Array : all ;
+
+int main () {
+  printf ( " Hello World !\ n " );
+ret
 
 const quotes = [
 	"You don't even know that you're alive, 81^3#!",
