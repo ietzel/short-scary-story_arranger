@@ -1,9 +1,4 @@
-use StdIO : all ;
-use Array : all ;
-
-int main () {
-  printf ( " Hello World !\ n " );
-ret
+@main def main() = println("Hello, World!")
 
 const quotes = [
 	"You don't even know that you're alive, 81^3#!",
