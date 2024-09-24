@@ -1,6 +1,6 @@
 @main def main() = println("Hello, World!")
 
-const quotes = [
+var quotes = Array(
 	"You don't even know that you're alive, 81^3#!",
 	"Green number 4, close the door!",
 	"You're not perfect!",
@@ -41,4 +41,8 @@ const quotes = [
 	"Undead malware."
 	"Goatskull floating in green mist.",
 	"That was just my crazy ********: don't crap on me."
-];  
+)  
+
+for (x <- quotes) {
+         println(x)
+}
