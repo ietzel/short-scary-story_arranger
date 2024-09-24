@@ -1,5 +1,3 @@
-@main def main() = println("Hello, World!")
-
 var quotes = Array(
 	"You don't even know that you're alive, 81^3#!",
 	"Green number 4, close the door!",
