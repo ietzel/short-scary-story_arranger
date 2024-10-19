@@ -38,7 +38,8 @@ var quotes = Array(
 	"Don't be afraid of the dark.",
 	"Undead malware."
 	"Goatskull floating in green mist.",
-	"That was just my crazy ********: don't crap on me."
+	"That was just my crazy ********: don't crap on me.",
+        "Let's turn it up."
 )  
 
 for (x <- quotes) {
