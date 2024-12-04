@@ -1,3 +1,5 @@
+import scala.util.Random
+
 var rare = Array(
 	"Amber",
 	"Angelica",
@@ -124,5 +126,8 @@ var common = Array (
 )
 
 for (x <- common) {
-         println(x)
+	var included = Random.between(0, 1)
+	if(included > 0) {
+		println(x)
+	}
 }
