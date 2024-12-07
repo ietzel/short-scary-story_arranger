@@ -1,4 +1,4 @@
-var quotes = Array(
+quotes = [
 	"You don't even know that you're alive, 81^3#!",
 	"Green number 4, close the door!",
 	"You're not perfect!",
@@ -40,7 +40,7 @@ var quotes = Array(
 	"Goatskull floating in green mist.",
 	"That was just my crazy ********: don't crap on me.",
         "Let's turn it up."
-)  
+]
 
 for (x <- quotes) {
          println(x)
